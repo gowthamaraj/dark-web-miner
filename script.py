@@ -77,4 +77,5 @@ with ThreadPoolExecutor(max_workers=5) as executor:
 for task in as_completed(processes):
 	task.result()
 
+# prints the url & its resp. keywords
 print(output)
