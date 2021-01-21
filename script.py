@@ -69,6 +69,7 @@ def tag(onion):
 	except Exception as E:
 		pass
 
+# making concurrency
 processes = []
 with ThreadPoolExecutor(max_workers=5) as executor:
 	for onion in onions[:5]:
