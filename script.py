@@ -71,6 +71,7 @@ def tag(onion):
 
 # making concurrency
 processes = []
+# assigning 5 workers
 with ThreadPoolExecutor(max_workers=5) as executor:
 	for onion in onions[:5]:
         	processes.append(executor.submit(tag, onion))
