@@ -73,6 +73,7 @@ def tag(onion):
 processes = []
 # assigning 5 workers
 with ThreadPoolExecutor(max_workers=5) as executor:
+	# creating threads for the first 5 onions
 	for onion in onions[:5]:
         	processes.append(executor.submit(tag, onion))
 
