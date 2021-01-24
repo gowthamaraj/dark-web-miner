@@ -56,6 +56,7 @@ for i, pre_tag in enumerate(pre_tags):
 output = {}
 custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedupLim=deduplication_thresold, dedupFunc=deduplication_algo, windowsSize=windowSize, top=numOfKeywords, features=None)
 
+# function to extract key words from the onion link
 def tag(onion):
 	try:
 		html = urlopen('http://'+onion).read()
