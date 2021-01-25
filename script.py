@@ -59,6 +59,7 @@ custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedu
 # function to extract key words from the onion link
 def tag(onion):
 	try:
+		# extract the HTML
 		html = urlopen('http://'+onion).read()
 		text = text_from_html(html)
 		keywords = custom_kw_extractor.extract_keywords(text)
