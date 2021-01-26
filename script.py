@@ -61,6 +61,7 @@ def tag(onion):
 	try:
 		# extract the HTML
 		html = urlopen('http://'+onion).read()
+		# get the text from the HTML
 		text = text_from_html(html)
 		keywords = custom_kw_extractor.extract_keywords(text)
 		for kw in keywords:
