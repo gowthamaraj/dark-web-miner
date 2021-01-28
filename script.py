@@ -65,6 +65,7 @@ def tag(onion):
 		text = text_from_html(html)
 		# extract keywords from the text
 		keywords = custom_kw_extractor.extract_keywords(text)
+		# add keywords to the output
 		for kw in keywords:
 			if onion not in output:
 				output[onion] = [kw[0]]
