@@ -42,6 +42,8 @@ html = urlopen('http://jncyepk6zbnosf4p.onion/onions.html').read()
 soup = BeautifulSoup(html, "html.parser")
 pre_tags = soup.findAll('pre',text=True)
 
+
+# below code is to extract the urls from the link
 onions = []
 for i, pre_tag in enumerate(pre_tags): 
 	try:
