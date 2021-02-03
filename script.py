@@ -41,6 +41,7 @@ def text_from_html(body):
 
 # read the link & get the HTML
 html = urlopen('http://jncyepk6zbnosf4p.onion/onions.html').read()
+# parse the HTML
 soup = BeautifulSoup(html, "html.parser")
 pre_tags = soup.findAll('pre',text=True)
 
