@@ -32,6 +32,7 @@ def tag_visible(element):
     return True
 
 
+# code to get text from HTML
 def text_from_html(body):
     soup = BeautifulSoup(body, 'html.parser')
     texts = soup.findAll(text=True)
