@@ -24,6 +24,8 @@ def getaddrinfo(*args):
 
 socket.getaddrinfo = getaddrinfo
 
+
+# to find the visible Tags
 def tag_visible(element):
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]','script','a']:
         return False
