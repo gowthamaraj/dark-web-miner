@@ -19,9 +19,10 @@ deduplication_algo = 'seqm'
 windowSize = 1
 numOfKeywords = 20
 
+
+# for socket connection
 def getaddrinfo(*args):
     return [(socket.AF_INET, socket.SOCK_STREAM, 6, '', (args[0], args[1]))]
-
 socket.getaddrinfo = getaddrinfo
 
 
