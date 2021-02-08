@@ -7,6 +7,8 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 from urllib.request import urlopen
 
+
+# connect socks 
 socks.set_default_proxy(socks.SOCKS5, "localhost", 9150)
 socket.socket = socks.socksocket
 # yake module to extract Keywords
