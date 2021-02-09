@@ -19,6 +19,7 @@ max_ngram_size = 2
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1
+# get the top 20 keywords
 numOfKeywords = 20
 
 
