@@ -3,6 +3,9 @@ import socket
 import requests
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+
+# libraries to scarp the data
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 from urllib.request import urlopen
