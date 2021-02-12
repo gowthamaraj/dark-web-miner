@@ -2,3 +2,7 @@
 ## Description
 	The project aims at automating the process of extrating key-words from the onion sites.
 
+## Input File
+ - http://jncyepk6zbnosf4p.onion/onions.html
+
+## Resources
