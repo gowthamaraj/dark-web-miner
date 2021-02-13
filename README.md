@@ -6,3 +6,4 @@
  - http://jncyepk6zbnosf4p.onion/onions.html
 
 ## Resources
+ - http://www.automatingosint.com/blog/2016/07/dark-web-osint-with-python-and-onionscan-part-one/
