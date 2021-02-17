@@ -10,3 +10,4 @@
  - https://python.plainenglish.io/accessing-the-dark-web-with-python-4db013bf4d32
  - https://www.linkedin.com/pulse/dark-web-osint-python-onionscan-part-one-justin-seitz/
  - https://dev.to/jmortega/osint-python-extracting-information-from-tor-network-and-darkweb-140f
+ - https://hakin9.org/torbot-open-source-intelligence-tool-for-the-dark-web/
