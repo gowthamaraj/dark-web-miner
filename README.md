@@ -12,3 +12,7 @@
  - https://www.linkedin.com/pulse/dark-web-osint-python-onionscan-part-one-justin-seitz/
  - https://dev.to/jmortega/osint-python-extracting-information-from-tor-network-and-darkweb-140f
  - https://hakin9.org/torbot-open-source-intelligence-tool-for-the-dark-web/
+
+## Future Modifycation
+1. Use of search engine to get the onion links.
+2. Remove the requirement for tor package in the machine.
